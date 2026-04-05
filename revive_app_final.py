@@ -57,25 +57,17 @@ st.markdown("""
         border-color: #ffffff !important;
         box-shadow: 0 0 0 2px rgba(255,255,255,0.1) !important;
     }
-    
     button {
-        background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%) !important;
-        color: #000000 !important;
-        border: none !important;
-        border-radius: 4px !important;
-        font-family: 'Syne', sans-serif !important;
-        font-weight: 600 !important;
-        padding: 12px 24px !important;
-        cursor: pointer;
-        transition: all 0.3s ease !important;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        font-size: 13px;
-    }
-    
-    button:hover {
-        transform: translateY(-2px) !important;
-        box-shadow: 0 8px 24px rgba(255,255,255,0.2) !important;
+    background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%) !important;
+    color: #ffffff !important;
+    ...
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0080ff 0%, #0066cc 100%) !important;
+    box-shadow: 0 8px 24px rgba(0, 102, 204, 0.4) !important;
+}
+
     }
     
     [data-testid="stMetricValue"] {
